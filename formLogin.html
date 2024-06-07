@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./SASS/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./formLogin.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="layout">
+        <img src="https://images.unsplash.com/photo-1715845608783-e9b51eafc3f9?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="layout__img" class="layout__img">
+
+        <form class="login">
+            <h2 class="login-title">
+                Login
+            </h2>
+            <div class="login__content">
+                <div class="login__box">
+                    <i class="fa-regular fa-user login__icon"></i>
+                    <div class="login__content-input">
+                        <input type="email" class="login__input" placeholder=" ">
+                        <label class="login__label">Email</label>
+                    </div>
+                </div>
+                <div class="login__error-email">
+                    You have not entered a email.
+                </div>
+                <div class="login__box">
+                    <i class="fa-solid fa-lock login__icon"></i>
+                    <div class="login__content-input">
+                        <input type="password" class="login__input" placeholder=" ">
+                        <label class="login__label">Password</label>
+                        <i class="fa-solid fa-eye-slash login__icon-eye"></i>
+                    </div>
+                </div>
+                <div class="login__error-password">
+                    You have not entered a password.
+                </div>
+                <div class="login__check">
+                    <div class="login__check-group">
+                        <input type="checkbox" class="login__input-checkbox">
+                        <label class="login__label-check">Remember Me</label>
+                    </div>
+                    <div class="login__forgot">
+                        Forgot Password?
+                    </div>
+                </div>
+                <button class="login__btn">
+                    Login
+                </button>
+                <p class="login__register">
+                    Don't have an account? Register
+                </p>
+            </div>
+        </form>
+    </div>
+    <script src="formLogin.js"></script>
+</body>
+</html>
